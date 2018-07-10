@@ -1,4 +1,4 @@
 # OpenFW
-## Firewall
-## Curl test
+## Iptables commands
+## Curl commands
 ## Others
