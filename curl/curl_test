@@ -1,0 +1,11 @@
+#!/bin/bash
+###curl -svo /dev/null -w "time_total=%{time_total} speed_download=%{speed_download}\n" www.lulutrip.com
+#curl -svo /dev/null -L -w "time_total=%{time_total} speed_download=%{speed_download}\n" -H "Accept:text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" -H 'Accept-Encoding:gzip' -H "Accept-Language:en-US,en;q=0.5" -H "User-Agent:Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 JuneChen/99.99" www.lulutrip.com
+##curl -svo /dev/null -w "time_total=%{time_total} speed_download=%{speed_download}\n" app.lulutrip.com
+##curl -svo /dev/null -w "time_total=%{time_total} speed_download=%{speed_download}\n" www.ctrip.com
+##curl -svo /dev/null -w "time_total=%{time_total} speed_download=%{speed_download}\n" https://api-3t.paypal.com/nvp
+###curl --tlsv1.2 -svo /dev/null -w "time_total=%{time_total} speed_download=%{speed_download}\n" "https://diy.lulutrip.com/data/products?apiuser=lulutrip&apikey=get_data_from_ddss&pcodes=90000004"
+
+#curl -svo /dev/null -L -w "time_total=%{time_total} speed_download=%{speed_download}\n" -H "Accept:text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" -H 'Accept-Encoding:gzip' -H "Accept-Language:en-US,en;q=0.5" -H "User-Agent:Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 JuneChen/99.99" https://www.lulutrip.com/tour/destination/region-EU_c-LON
+#curl -svo /dev/null -L -w "time_total=%{time_total} speed_download=%{speed_download}\n" -H "Accept:text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" -H 'Accept-Encoding:gzip' -H "Accept-Language:en-US,en;q=0.5" -H "User-Agent:Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 JuneChen/99.99" www.lulutrip.com/tour/view/tourcode-2608
+curl https://www.lulutrip.com/tour/destination/id-0_s-1376%7C777_ns-807 -X GET -I -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36" -H "Accept-Encoding:gzip, deflate, br" -H "Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
